@@ -1,0 +1,49 @@
+.hero{
+  display: flex;
+  gap: 32px;
+}
+
+.hero-description {
+  order : 1;
+  max-inline-size: 450px;
+  color: #fffbda;
+}
+
+.hero-image {
+  order: 2;
+  text-align: center;
+  flex: 1
+}
+
+.hero-image img {
+  inline-size: 500px;
+  block-size:  500px;
+  border-radius: 10%;
+}
+
+.btn-curriculum{
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.btn-curriculum button {
+  background-color: #ff8f48;
+  font: var(--button_curriculum);
+  border-radius: 8px;
+  padding: 10px;
+
+
+}
+
+.icon-heros {
+  /* border: 2px solid #27AE60;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%); */
+  text-align: center;
+}
+
+.icon-heros img {
+  padding: 10px;
+}

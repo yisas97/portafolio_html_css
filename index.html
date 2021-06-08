@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!--   Barra -->
+  <header class = "header">
+    <nav class = "nav">
+      <ul>
+        <li><a class="is-active" href="#hero">Home</a></li>
+        <li><a href="#knowledge">Conocimiento</a></li>
+        <li><a href="#proyect">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <!--  Todo el contenido    -->
+  <div class="wrapper">
+    <section class="hero" id= "hero">
+      <div class="hero-description">
+        <span>
+          <h1>Hola a todos!</h1>
+          <h1>Soy Jesus Campos</h1>
+        </span>
+        <p>Soy Jesus Campos, soy estudiante de Ingenieria de sistemas en la <b>UNIVERSIDAD NACIONAL DE INGENIERIA.</b> </p>
+        <p>Me gusta el desarrollo de aplicacion web como de escritorio con cierto diseño que inspirar a los clientes. </p>
+        <div class="btn-curriculum">
+          <button>Curriculum</button>
+        </div>
+
+        <div class="icon-heros">
+          <a href="https://www.instagram.com/jessuscv/" target="_blank"><img src="./images/instagram.png" alt=""></a>
+          <a href="https://twitter.com/yisas96xD" target="_blank"><img href=""src="./images/twitter.png" alt=""></a>
+          <a href="drakejj1997@gmail.com" target="_blank"><img src="./images/email.png" alt=""></a>
+          <a href="https://github.com/yisas97" target="_blank" ><img src="./images/github.png" alt=""></a>
+
+
+        </div>
+
+
+      </div>
+      <div class="hero-image">
+        <img src="./images/universidad.jpeg" alt="" sizes="338" height="330">
+
+      </div>
+
+
+
+
+    </section>
+
+    <section class="knowledge" id= "knowledge">
+      <div class="title-knowledge">
+        <h1>Conocimiento</h1>
+        <hr>
+      </div>
+      <div class="skill">
+
+        <div class="skill-image">
+          <img src="./images/python.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/html.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/css.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/c++.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/java.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/linux.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/r.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+        <div class="skill-image">
+          <img src="./images/android.png" alt="" sizes="100px" height="100px">
+
+        </div>
+
+
+
+      </div>
+
+
+    </section>
+
+    <section class="proyect" id = "proyect">
+        <div class="proyect-context">
+            <h2>Proyectos</h2>
+            <hr>
+            <p>Aqui estan mis proyectos</p>
+        </div>
+        <div class="proyect-view">
+          <div class="proyect-example">
+              <div class="proyect-example-image">
+                <div class="proyect-image">
+                  <img src="./images/python.png" alt="" sizes="100px" height="100px">
+                </div>
+                <div  class="proyect-description">
+                  <h1>Portafolio</h1>
+                  <p>Proyecto de mi portafolio</p>
+                </div>
+              </div>
+            </div>
+          <div class="proyect-example">
+            <div class="proyect-example-image">
+              <div class="proyect-image">
+                <img src="./images/python.png" alt="" sizes="100px" height="100px">
+              </div>
+              <div  class="proyect-description">
+                <h1>Portafolio</h1>
+                <p>Proyecto de mi portafolio</p>
+              </div>
+            </div>
+          </div>
+          <div class="proyect-example">
+            <div class="proyect-example-image">
+              <div class="proyect-image">
+                <img src="./images/python.png" alt="" sizes="100px" height="100px">
+              </div>
+              <div  class="proyect-description">
+                <h1>Portafolio</h1>
+                <p>Proyecto de mi portafolio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id = "contact">
+      <div class = "title-contact">
+          <h1>Contacto</h1>
+          <hr>
+      </div>
+      <form action="" method="POST" class="form">
+          <label for="form-name">
+            Nombre Completo
+            <input required name="name" id= "form-name" type="text" placeholder="Jesus">
+          </label>
+
+
+        <label for="form-email">
+          Correo Electronico
+           <input  required name="email" id= "form-email" type="email" placeholder="example@gmail.com">
+        </label>
+
+
+        <label for="form-message">
+          Mensaje
+          <textarea required name="message"  placeholder="Message"id="form-message" cols="30" rows="7"></textarea>
+        </label>
+
+        <button class="button" type="submit">Enviar</button>
+
+
+
+      </form>
+
+    </section>
+
+
+
+  </div>
+
+  <!-- Es la parte de abajo -->
+
+  <div class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+            <!-- <p>Contenido</p> -->
+      </div>
+
+      <div class="footer-copyright">
+      <p>
+        Hecho con el  ❤️  por Jesus - Copyright 2021 - Todos los derechos reservados.
+      </p>
+    </div>
+  </div>
+
+
+
+</body>
+</html>

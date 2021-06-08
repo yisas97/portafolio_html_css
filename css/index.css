@@ -1,0 +1,51 @@
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./knowledge.css";
+@import "./project.css";
+@import "./contact.css";
+@import "./footer.css";
+
+:root{
+  --fontBase: 'Oxygen', sans-serif;
+  --color_white: #C4B0AA;
+  --gradient:linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);
+  --color_negro : #424242;
+  --fontPoppins: 'Poppins', sans-serif;
+  --button: bold 13px/22px var(--fontBase);
+  --button_curriculum: bold 17px/22px var(--fontPoppins);
+}
+
+body {
+  /* background: var(--gradient); */
+  background: #0c2132;
+  min-block-size: 100vh;
+  margin: 0;
+  font: 16px/25px var(--fontBase);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font : bold 15px var(--fontBase);
+  position: fixed;
+  z-index: 100;
+  background: var(--color_negro);
+  width: 100%;
+  border-radius: 2%;
+
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: var(--color_white);
+  text-transform: uppercase;
+
+}

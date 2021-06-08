@@ -1,0 +1,23 @@
+.proyect-context {
+  text-align: center;
+  padding: 6px;
+  color: #fffbda;
+}
+
+.proyect-view {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fffbda;
+}
+
+.proyect-example {
+  margin: 40px;
+  padding: 10px;
+  /* border: 1px solid red; */
+}
+
+.proyect-image  img {
+  display: block;
+  margin:auto;
+}
